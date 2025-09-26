@@ -6,7 +6,7 @@ on:
     inputs:
       create_release:
         description: "Build IPA and create draft release"
-        default: false
+        default: true
         type: boolean
       ipa_url:
         description: "Direct URL to Decrypted IPA file"
